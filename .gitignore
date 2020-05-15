@@ -4,15 +4,19 @@ stock_quotes/financial_output/*
 !tweepy-streamer/tweet_output/.keep.txt
 !stock_quotes/financial_output/.keep.txt
 data/*
+sproj/data/*
 
 ## Ignore Tokens ##
-#*/alpha_vantage_parameters.py
+*/alpha_vantage_parameters.py
 
 ## Ignore cache ##
 **/__pycache__
 
 ## Ignore pycharm stuff ##
 /.idea
+
+#ignore images
+/sproj/writeup/*
 
 ## Ignore google drive sync
 .tmp.drivedownload
